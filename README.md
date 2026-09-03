@@ -13,6 +13,7 @@ Open `index.html` in a browser. No installation or build step required.
 - Five-part relevance, urgency, leverage, evidence, and ownership scoring
 - Promotion into actions, decisions, durable knowledge, and tool radar
 - Progress log for decisions, evidence, outcomes, and lessons
+- Running-job log for manual work, CU schedules, workflows, agents, and other automation
 - Evidence-backed value statements for status updates and documentation
 - Browser-local persistence
 - JSON backup and restore
