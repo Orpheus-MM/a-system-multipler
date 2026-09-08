@@ -1,0 +1,18 @@
+{
+  "direct_messages": "deny",
+  "include_tagged_threads": true,
+  "groups": {
+    "primary_action_projects": [
+      {"name": "cc-demand-werewolves", "id": "C08SCNURBNF", "url": "https://salesforce.enterprise.slack.com/archives/C08SCNURBNF"},
+      {"name": "ux-cc-1commerce-ux", "id": "C022Q5WFCTC", "url": "https://salesforce.enterprise.slack.com/archives/C022Q5WFCTC"},
+      {"name": "xd-identity-advocates", "id": "C0BM896604R", "url": "https://salesforce.enterprise.slack.com/archives/C0BM896604R"},
+      {"name": "temp-xd-builderio-pilot-group", "id": "C0BPVK43TH8", "url": "https://salesforce.enterprise.slack.com/archives/C0BPVK43TH8"}
+    ],
+    "research_learning": [
+      {"name": "ri-insights-commerce", "id": "C041L7985KJ", "url": "https://salesforce.enterprise.slack.com/archives/C041L7985KJ"},
+      {"name": "cc-b2c-pm-customer-engagement", "id": "C0922E1BR5L", "url": "https://salesforce.enterprise.slack.com/archives/C0922E1BR5L"},
+      {"name": "my-summer-with-claude", "id": "C0B9Q1FKGF4", "url": "https://salesforce.enterprise.slack.com/archives/C0B9Q1FKGF4"},
+      {"name": "xd-ai-hq", "id": "C08N7KADGDT", "url": "https://salesforce.enterprise.slack.com/archives/C08N7KADGDT"}
+    ]
+  }
+}

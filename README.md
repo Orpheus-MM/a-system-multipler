@@ -35,6 +35,8 @@ Current version is intentionally local-first. Paste selected Slack threads, cale
 
 Future read-only integrations should require explicit Slack channel and calendar scope. Posting messages, creating events, assigning work, and enabling tools should remain human-approved.
 
+Nightly Slack digest configuration lives in `automation/`. Committed reports appear under **Daily brief > Today's overview** and are stored in `reports/daily/`.
+
 ## Design Principle
 
 AI should multiply judgment, learning, and team leverage rather than replace human ownership of framing, evidence, tradeoffs, and product decisions.

@@ -1,0 +1,1 @@
+window.SYSTEM_MULTIPLIER_REPORTS = [];
