@@ -1,5 +1,6 @@
 {
   "direct_messages": "deny",
+  "member_id": "W018L7QCJE6",
   "include_tagged_threads": true,
   "groups": {
     "primary_action_projects": [

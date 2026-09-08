@@ -9,33 +9,19 @@ Nightly Slack digest scope and output contract.
 - Slack plugin enabled and authenticated
 - Read access to channels in `config/slack-channels.json`
 
-Current machine resolves `cu` to macOS `/usr/bin/cu`, not Claude Unleashed. Install or repair PATH before activation.
+Native workflow uses AI Expert Suite Claude CLI, Slack MCP, and macOS `launchd`. CU is not required.
 
-## Intended schedule
+## Schedule
 
-Runs at 6:00 PM local time on weekdays. Agent must permit Slack read/search, repository read/write, and Git commit/push only. It must deny Slack posting and direct-message access.
+Runs at 6:00 PM local time on weekdays. Slack tools are read-only and restricted by prompt/config to listed channels. Direct and group messages are denied. Generated reports commit only to private git.soma branch `private-reports`; `reports/private/` is ignored by public application branch.
 
-```bash
-cu schedules add nightly-slack-digest \
-  --kind run \
-  --target "/Users/madison.moore/workspace/system-multiplier" \
-  --cron "0 18 * * 1-5" \
-  --agent nightly-slack-reporter \
-  --model opusplan \
-  --max-turns 200 \
-  --max-budget-usd 10 \
-  --no-multiturn \
-  --disable-slash-commands \
-  --slack-announce off \
-  --prompt-file "/Users/madison.moore/workspace/system-multiplier/automation/prompts/nightly-slack-digest.md"
-```
+`automation/run-nightly.sh` runs analysis and report writing. `automation/com.salesforce.system-multiplier.nightly.plist` defines cadence.
 
-Before enabling unattended runs:
+Install schedule:
 
 ```bash
-cu schedules validate-cron "0 18 * * 1-5" --json
-cu schedules run-now nightly-slack-digest --json
-cu schedules history nightly-slack-digest --json
+cp automation/com.salesforce.system-multiplier.nightly.plist ~/Library/LaunchAgents/
+launchctl bootstrap "gui/$(id -u)" ~/Library/LaunchAgents/com.salesforce.system-multiplier.nightly.plist
 ```
 
 Review first generated report for privacy, source fidelity, and useful prioritization.

@@ -43,7 +43,7 @@ window.SYSTEM_MULTIPLIER_REPORTS = [{
   date: "YYYY-MM-DD",
   title: "Nightly Slack digest",
   overview: "Short synthesis",
-  reportPath: "reports/daily/YYYY-MM-DD-slack-digest.md",
+  reportPath: "reports/private/YYYY-MM-DD-slack-digest.md",
   actions: [{title: "...", detail: "...", source: "https://..."}],
   decisions: [{title: "...", detail: "...", source: "https://..."}],
   tagged: [{channel: "...", message: "...", overview: "...", needed: "...", timing: "...", script: "...", source: "https://..."}],
