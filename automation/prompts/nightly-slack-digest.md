@@ -11,7 +11,14 @@ Read `automation/config/slack-channels.json` first. Analyze only listed public c
 
 ## Analysis
 
-Prioritize `primary_action_projects` for requests, commitments, decisions, risks, blockers, and dates. Use `research_learning` for relevant insights, product changes, customer evidence, methods, and learning opportunities.
+Prioritize `primary_action_projects` for requests, commitments, decisions, risks, blockers, and dates. Use `research_learning` for relevant insights, product changes, customer evidence, methods, and learning opportunities. Use `tips_workflows` to select one fresh, concrete tip, example, tool use, or workflow worth trying.
+
+The Learn card should feel conversational and specific. Prefer formats such as:
+
+- "Hey, [person] used [tool/method] to [result]. Check it out."
+- "New workflow to try: [short workflow]. Use it when [situation]."
+
+Name the person when attribution is available. Explain why it is relevant to Madison's design or AI practice. Include one small next step and source link. Never invent a result, workflow, or attribution. If nothing useful appeared since the previous report, say so rather than recycling an old tip.
 
 For every tagged thread include:
 
@@ -32,7 +39,7 @@ Create `reports/daily/YYYY-MM-DD-slack-digest.md` with a morning brief covering 
 - Decisions needed, maximum 2
 - Tagged threads
 - Primary project changes
-- Research and learning, maximum 3
+- Research and learning, maximum 3, with the first item reserved for one fresh conversational tip or workflow when available
 - Watch or ignore
 - Sources reviewed
 

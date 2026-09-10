@@ -14,6 +14,12 @@
       {"name": "cc-b2c-pm-customer-engagement", "id": "C0922E1BR5L", "url": "https://salesforce.enterprise.slack.com/archives/C0922E1BR5L"},
       {"name": "my-summer-with-claude", "id": "C0B9Q1FKGF4", "url": "https://salesforce.enterprise.slack.com/archives/C0B9Q1FKGF4"},
       {"name": "xd-ai-hq", "id": "C08N7KADGDT", "url": "https://salesforce.enterprise.slack.com/archives/C08N7KADGDT"}
+    ],
+    "tips_workflows": [
+      {"name": "ai-club", "id": "C058L05637W", "url": "https://salesforce.enterprise.slack.com/archives/C058L05637W"},
+      {"name": "my-summer-with-claude", "id": "C0B9Q1FKGF4", "url": "https://salesforce.enterprise.slack.com/archives/C0B9Q1FKGF4"},
+      {"name": "xd-all-broadcast", "id": "C08QZA2T0JJ", "url": "https://salesforce.enterprise.slack.com/archives/C08QZA2T0JJ"},
+      {"name": "xd-ai-hq", "id": "C08N7KADGDT", "url": "https://salesforce.enterprise.slack.com/archives/C08N7KADGDT"}
     ]
   }
 }

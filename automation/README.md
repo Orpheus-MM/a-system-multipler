@@ -9,7 +9,7 @@ Nightly Slack digest scope and output contract.
 - Slack plugin enabled and authenticated
 - Read access to channels in `config/slack-channels.json`
 
-Native workflow uses AI Expert Suite Claude CLI, Slack MCP, and macOS `launchd`. CU is not required.
+Native workflow uses AI Expert Suite Claude CLI, Slack MCP, and macOS `launchd`. CU is not required. Learn-card tips draw from explicitly listed `tips_workflows` channels and include attribution, relevance, a small experiment, and source link.
 
 ## Schedule
 
