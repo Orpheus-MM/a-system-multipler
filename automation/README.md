@@ -13,7 +13,7 @@ Native workflow uses AI Expert Suite Claude CLI, Slack MCP, and macOS `launchd`.
 
 ## Schedule
 
-Runs at 6:00 PM local time on weekdays. Slack tools are read-only and restricted by prompt/config to listed channels. Direct and group messages are denied. Generated reports commit only to private git.soma branch `private-reports`; `reports/private/` is ignored by public application branch.
+Runs at 6:00 AM local time on weekdays. Slack tools are read-only and restricted by prompt/config to listed channels. Direct and group messages are denied. Generated reports commit only to private git.soma branch `private-reports`; `reports/private/` is ignored by public application branch.
 
 `automation/run-nightly.sh` runs analysis and report writing. `automation/com.salesforce.system-multiplier.nightly.plist` defines cadence.
 

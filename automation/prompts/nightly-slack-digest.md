@@ -1,4 +1,4 @@
-# Nightly Slack Digest
+# Morning Slack Digest
 
 Read `automation/config/slack-channels.json` first. Analyze only listed public channels for activity since previous report or, when no prior report exists, previous 24 hours.
 
@@ -25,7 +25,7 @@ Separate facts, interpretations, and recommendations. Do not treat discussion as
 
 ## Output
 
-Create `reports/daily/YYYY-MM-DD-slack-digest.md` with:
+Create `reports/daily/YYYY-MM-DD-slack-digest.md` with a morning brief covering activity since the previous report:
 
 - Today's overview
 - Act today, maximum 3
